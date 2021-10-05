@@ -1,0 +1,51 @@
+*{
+    margin : 0;
+    border:0;
+}
+
+p{
+    font-family : verdana ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg img {
+    z-index : -1;
+    width : 100%;
+}
+
+.textbox{
+    width : 100%;
+}
+
+.text{
+    position : absolute;
+    top : 30%;
+    margin-left : 25%;
+    margin-right : 25%;
+}
+
+.text p{
+    color : white;
+    text-shadow: 5s;
+    font-size : 30px;
+}
+
+.text a{
+    font-size : 20px;
+    color : red;
+    margin-left : 30%;
+    margin-top : 10%;
+    padding : 5px 10px;
+    border : 2px solid red;
+    border-radius : 5px;
+    text-align : center;
+    font-family: "lucida handwriting";
+}
+
+.text a:hover {
+    color : black;
+    background-color : red;
+}
